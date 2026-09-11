@@ -22,6 +22,7 @@ ADDR_GAME_ID = 0x80000000
 # Stage & Event Pointers
 ADDR_CURRENT_STAGE = 0x8053D940        # Null-terminated ASCII stage string
 ADDR_LAST_COLLECTED_STAR = 0x8053DA10   # Active scenario / star collected index (1-6)
+ADDR_STAR_BITS = 0x80f63cf4 # Static Address of main area Star Bit counter
 
 # Player / MarioActor Pointers
 # Pointer to MarioActor singleton structure
